@@ -58,4 +58,7 @@ PLIST
 codesign --force --deep --sign - "$app"
 codesign --verify --deep --strict "$app"
 
-echo "built: $app"
+archive="$root/build/PortRadar.zip"
+ditto -c -k --norsrc --noextattr --keepParent "$app" "$slices/PortRadar.zip"
+mv "$slices/PortRadar.zip" "$archive"
+echo "built: $app and $archive"
