@@ -21,7 +21,8 @@ Native Swift and AppKit. Lists what is listening on a port and opens it with one
 
 ## Install
 
-Build it (below), then move **PortRadar** from `build/` into **Applications** and open it.
+Download the macOS ZIP from the [latest release](https://github.com/rengwu/portradar/releases/latest).
+Unzip it, move **PortRadar.app** to **Applications**, and open it. The radar icon appears in the menu bar.
 
 Requires macOS 13 or later, on Apple Silicon or Intel. The app is ad-hoc signed, not
 notarized. If macOS blocks it, use **System Settings → Privacy & Security → Open Anyway**.

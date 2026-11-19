@@ -100,4 +100,3 @@ To capture only PortRadar's menu, find its windows with `CGWindowListCopyWindowI
 
 1. Have the user try the real (non-demo) app: real open, copy, reveal and stop, and a click on the Hidden header.
 2. Launch at login is untested from the built bundle.
-3. Publish a release with a downloadable app bundle.
